@@ -1,4 +1,4 @@
-# NetSoft2020 - Tutorial4 - Demo1 - Exp2
+# SBRC2020 - Minicurso3 - Demo1 - Exp2
 
 ## Expected result
 After installation, five containers are available, two of then running User Equipment (UE) and Evolved Node B (eNB) and and the others running the elements of Evolved Packet Core. As illustrated in the figure below, UE can establish an internet connection, provided through combining functionality of all components. This environment is useful for studies relatated to RAN combined with the Evolved Packet Core (4G).
