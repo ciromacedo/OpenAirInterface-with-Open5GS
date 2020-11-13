@@ -29,7 +29,7 @@ sudo apt -y install git
 
 Clone this repository:
 ```
-git clone https://github.com/LABORA-INF-UFG/NetSoft2020-Tutorial4-Demo1-Exp2.git
+git clone https://github.com/LABORA-INF-UFG/SBRC2020-Minicurso3-Demo1-Exp2.git
 ```
 
 Install Ansible:
@@ -44,7 +44,7 @@ Run ```ifconfig``` and get the name of **internet network interface**, like as i
 
 Run the following Ansible playbook (password for sudo is required):
 ```
-cd NetSoft2020-Tutorial4-Demo1-Exp2 && ansible-playbook -K Demo1Exp2.yml  -e  "internet_network_interface=<< internet network interface name>>"
+cd SBRC2020-Minicurso3-Demo1-Exp2 && ansible-playbook -K Demo1Exp2.yml  -e  "internet_network_interface=<< internet network interface name>>"
 ```
 Check if the containers are up:
 ```
