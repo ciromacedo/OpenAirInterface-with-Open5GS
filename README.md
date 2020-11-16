@@ -1,4 +1,4 @@
-# SBRC2020 - Minicurso3 - Demo1 - Exp2
+# OpenAirInterface-with-Open5GS
 
 ## Expected result
 After installation, five containers are available, two of then running User Equipment (UE) and Evolved Node B (eNB) and and the others running the elements of Evolved Packet Core. As illustrated in the figure below, UE can establish an internet connection, provided through combining functionality of all components. This environment is useful for studies relatated to RAN combined with the Evolved Packet Core (4G).
@@ -29,7 +29,7 @@ sudo apt -y install git
 
 Clone this repository:
 ```
-git clone https://github.com/LABORA-INF-UFG/SBRC2020-Minicurso3-Demo1-Exp2.git
+git clone https://github.com/ciromacedo/OpenAirInterface-with-Open5GS.git
 ```
 
 Install Ansible:
@@ -44,7 +44,7 @@ Run ```ifconfig``` and get the name of **internet network interface**, like as i
 
 Run the following Ansible playbook (password for sudo is required):
 ```
-cd SBRC2020-Minicurso3-Demo1-Exp2 && ansible-playbook -K Demo1Exp2.yml  -e  "internet_network_interface=<< internet network interface name>>"
+cd OpenAirInterface-with-Open5GS && ansible-playbook -K Demo1Exp2.yml  -e  "internet_network_interface=<< internet network interface name>>"
 ```
 Check if the containers are up:
 ```
